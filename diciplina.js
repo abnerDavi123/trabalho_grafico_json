@@ -1,6 +1,6 @@
 
 async function quantidadeVoto() {
-    const url = 'https://raw.githubusercontent.com/trabalho-grafico-json.vercel.app/refs/heads/main/disciplina.json'
+    const url = 'https://raw.githubusercontent.com//https://github.com/abnerDavi123/trabalho_grafico_json/edit/main/diciplina.jsrefs/heads/main/disciplina.json'
     const res = await fetch(url)
     const dados = await res.json()
     const disciplina = Object.keys(dados)
