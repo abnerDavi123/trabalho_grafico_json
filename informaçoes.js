@@ -11,7 +11,7 @@ async function vizualizarInformacoes() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que <span>as areas</span><span>${quantidade_alunos} alunos</span> e apenas <span>${numero_votos} alunos</span> comem fruta ? O professpr <span>Victor Yanaguisawa</span> leciona <span>${numero_aula_Victor} aulas por semana</span>, e no colégio há <span>${numero_aula_Mazza} aulas por semana</span>. <br>Isso significa que <span>${porcentagem_Victor}%</span> das aulas acontece com um único professor. Abaixo está o resultado do Questionário`
+    paragrafo.innerHTML = `Você sabia que <span>as areas</span>mais procuradas nos ultimos anos são <span></span> <span></span><span></span><span></span> <span></span>. <br><span></span> Abaixo está o resultado do Questionário`
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
